@@ -8,6 +8,7 @@ ACLARACIONES SOBRE EL APLICATIVO:
 - La base de datos se debe almacenar en una carpeta llamada "sqlite3".
 - Para realizar un correcto envío de e-mail en el módulo "gmail.py", la cuenta de gmail que se utilizará debe estar configurada para aceptar "Aplicaciones menos seguras".
 - El aplicativo solo cambia la visibilidad de "público" a "privado" de los archivos en la hora de cargar los mismos por primera vez en la Base de Datos. En futuras modificaciones de visibilidad de los archivos ya cargados, el aplicativo no los modifica automáticamente (solo almacena la modificación en la BD).
+- El aplicativo recorre todas las secciones de la unidad Drive del usuario.
 - El historial de todos los archivos que fueron públicos almacena los que justamente fueron públicos en algún momento (con anterioridad o actualmente).
 - Se considera extensión "drive" a aquellos archivos "docs" de la unidad Drive.
 
